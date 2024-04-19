@@ -125,7 +125,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_Meetups_NewMeetupForm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/Meetups/NewMeetupForm */ \"./components/Meetups/NewMeetupForm.js\");\n// domain.com/new-meetup\n\n\nfunction NewMeetupPage() {\n    const addMeetupHandler = (enteredData)=>{\n        console.log(enteredData);\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Meetups_NewMeetupForm__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n        onAddMeetup: addMeetupHandler\n    }, void 0, false, {\n        fileName: \"/Users/alisa/code-base/sandbox/react-next-js/pages/new-meetup/index.js\",\n        lineNumber: 10,\n        columnNumber: 10\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NewMeetupPage);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9uZXctbWVldHVwL2luZGV4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBQSx3QkFBd0I7O0FBRXNDO0FBRTlELFNBQVNDO0lBQ1AsTUFBTUMsbUJBQW1CLENBQUNDO1FBQ3hCQyxRQUFRQyxHQUFHLENBQUNGO0lBQ2Q7SUFFQSxxQkFBTyw4REFBQ0gseUVBQWFBO1FBQUNNLGFBQWFKOzs7Ozs7QUFDckM7QUFFQSxpRUFBZUQsYUFBYUEsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL3JlYWN0LW5leHQtanMvLi9wYWdlcy9uZXctbWVldHVwL2luZGV4LmpzPzk1ODIiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZG9tYWluLmNvbS9uZXctbWVldHVwXG5cbmltcG9ydCBOZXdNZWV0dXBGb3JtIGZyb20gJ0AvY29tcG9uZW50cy9NZWV0dXBzL05ld01lZXR1cEZvcm0nXG5cbmZ1bmN0aW9uIE5ld01lZXR1cFBhZ2UoKSB7XG4gIGNvbnN0IGFkZE1lZXR1cEhhbmRsZXIgPSAoZW50ZXJlZERhdGEpID0+IHtcbiAgICBjb25zb2xlLmxvZyhlbnRlcmVkRGF0YSlcbiAgfVxuXG4gIHJldHVybiA8TmV3TWVldHVwRm9ybSBvbkFkZE1lZXR1cD17YWRkTWVldHVwSGFuZGxlcn0gLz5cbn1cblxuZXhwb3J0IGRlZmF1bHQgTmV3TWVldHVwUGFnZVxuIl0sIm5hbWVzIjpbIk5ld01lZXR1cEZvcm0iLCJOZXdNZWV0dXBQYWdlIiwiYWRkTWVldHVwSGFuZGxlciIsImVudGVyZWREYXRhIiwiY29uc29sZSIsImxvZyIsIm9uQWRkTWVldHVwIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/new-meetup/index.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _components_Meetups_NewMeetupForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/components/Meetups/NewMeetupForm */ \"./components/Meetups/NewMeetupForm.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ \"./node_modules/next/router.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);\n// domain.com/new-meetup\n\n\n\n\n\nfunction NewMeetupPage() {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_4__.useRouter)();\n    const addMeetupHandler = async (enteredData)=>{\n        // create the request for the bild-in api\n        const response = await fetch(\"/api/new-meetup\", {\n            method: \"POST\",\n            body: JSON.stringify(enteredData),\n            headers: {\n                \"Content-Type\": \"application/json\"\n            }\n        });\n        const data = await response.json();\n        console.log(data);\n        router.push(\"/\");\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Add a meetup\"\n                    }, void 0, false, {\n                        fileName: \"/Users/alisa/code-base/sandbox/react-next-js/pages/new-meetup/index.js\",\n                        lineNumber: 31,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"description\",\n                        content: \"Content description here\"\n                    }, void 0, false, {\n                        fileName: \"/Users/alisa/code-base/sandbox/react-next-js/pages/new-meetup/index.js\",\n                        lineNumber: 32,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/alisa/code-base/sandbox/react-next-js/pages/new-meetup/index.js\",\n                lineNumber: 30,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Meetups_NewMeetupForm__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                onAddMeetup: addMeetupHandler\n            }, void 0, false, {\n                fileName: \"/Users/alisa/code-base/sandbox/react-next-js/pages/new-meetup/index.js\",\n                lineNumber: 34,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/alisa/code-base/sandbox/react-next-js/pages/new-meetup/index.js\",\n        lineNumber: 29,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NewMeetupPage);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9uZXctbWVldHVwL2luZGV4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBQSx3QkFBd0I7O0FBRUk7QUFDSTtBQUM4QjtBQUN2QjtBQUV2QyxTQUFTSTtJQUNQLE1BQU1DLFNBQVNGLHNEQUFTQTtJQUV4QixNQUFNRyxtQkFBbUIsT0FBT0M7UUFDOUIseUNBQXlDO1FBQ3pDLE1BQU1DLFdBQVcsTUFBTUMsTUFBTSxtQkFBbUI7WUFDOUNDLFFBQVE7WUFDUkMsTUFBTUMsS0FBS0MsU0FBUyxDQUFDTjtZQUNyQk8sU0FBUztnQkFDUCxnQkFBZ0I7WUFDbEI7UUFDRjtRQUVBLE1BQU1DLE9BQU8sTUFBTVAsU0FBU1EsSUFBSTtRQUVoQ0MsUUFBUUMsR0FBRyxDQUFDSDtRQUVaVixPQUFPYyxJQUFJLENBQUM7SUFDZDtJQUVBLHFCQUNFLDhEQUFDbEIsMkNBQVFBOzswQkFDUCw4REFBQ0Qsa0RBQUlBOztrQ0FDSCw4REFBQ29CO2tDQUFNOzs7Ozs7a0NBQ1AsOERBQUNDO3dCQUFLQyxNQUFLO3dCQUFjQyxTQUFROzs7Ozs7Ozs7Ozs7MEJBRW5DLDhEQUFDckIseUVBQWFBO2dCQUFDc0IsYUFBYWxCOzs7Ozs7Ozs7Ozs7QUFHbEM7QUFFQSxpRUFBZUYsYUFBYUEsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL3JlYWN0LW5leHQtanMvLi9wYWdlcy9uZXctbWVldHVwL2luZGV4LmpzPzk1ODIiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZG9tYWluLmNvbS9uZXctbWVldHVwXG5cbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCB7IEZyYWdtZW50IH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgTmV3TWVldHVwRm9ybSBmcm9tICdAL2NvbXBvbmVudHMvTWVldHVwcy9OZXdNZWV0dXBGb3JtJ1xuaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAnbmV4dC9yb3V0ZXInXG5cbmZ1bmN0aW9uIE5ld01lZXR1cFBhZ2UoKSB7XG4gIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpXG5cbiAgY29uc3QgYWRkTWVldHVwSGFuZGxlciA9IGFzeW5jIChlbnRlcmVkRGF0YSkgPT4ge1xuICAgIC8vIGNyZWF0ZSB0aGUgcmVxdWVzdCBmb3IgdGhlIGJpbGQtaW4gYXBpXG4gICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgnL2FwaS9uZXctbWVldHVwJywge1xuICAgICAgbWV0aG9kOiAnUE9TVCcsXG4gICAgICBib2R5OiBKU09OLnN0cmluZ2lmeShlbnRlcmVkRGF0YSksXG4gICAgICBoZWFkZXJzOiB7XG4gICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsXG4gICAgICB9LFxuICAgIH0pXG5cbiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNvbigpXG5cbiAgICBjb25zb2xlLmxvZyhkYXRhKVxuXG4gICAgcm91dGVyLnB1c2goJy8nKVxuICB9XG5cbiAgcmV0dXJuIChcbiAgICA8RnJhZ21lbnQ+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPkFkZCBhIG1lZXR1cDwvdGl0bGU+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9XCJDb250ZW50IGRlc2NyaXB0aW9uIGhlcmVcIiAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPE5ld01lZXR1cEZvcm0gb25BZGRNZWV0dXA9e2FkZE1lZXR1cEhhbmRsZXJ9IC8+XG4gICAgPC9GcmFnbWVudD5cbiAgKVxufVxuXG5leHBvcnQgZGVmYXVsdCBOZXdNZWV0dXBQYWdlXG4iXSwibmFtZXMiOlsiSGVhZCIsIkZyYWdtZW50IiwiTmV3TWVldHVwRm9ybSIsInVzZVJvdXRlciIsIk5ld01lZXR1cFBhZ2UiLCJyb3V0ZXIiLCJhZGRNZWV0dXBIYW5kbGVyIiwiZW50ZXJlZERhdGEiLCJyZXNwb25zZSIsImZldGNoIiwibWV0aG9kIiwiYm9keSIsIkpTT04iLCJzdHJpbmdpZnkiLCJoZWFkZXJzIiwiZGF0YSIsImpzb24iLCJjb25zb2xlIiwibG9nIiwicHVzaCIsInRpdGxlIiwibWV0YSIsIm5hbWUiLCJjb250ZW50Iiwib25BZGRNZWV0dXAiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/new-meetup/index.js\n");
 
 /***/ }),
 
@@ -150,6 +150,17 @@ module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
 
 /***/ }),
 
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/head");
+
+/***/ }),
+
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -158,6 +169,17 @@ module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
 
 "use strict";
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react-dom");
 
 /***/ }),
 
@@ -183,6 +205,17 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -191,6 +224,28 @@ module.exports = require("react/jsx-runtime");
 
 "use strict";
 module.exports = require("path");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
 
 /***/ })
 

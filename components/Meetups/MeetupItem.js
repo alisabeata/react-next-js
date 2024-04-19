@@ -9,7 +9,7 @@ function MeetupItem({ title, address, id }) {
   const router = useRouter()
 
   const showDetailHandler = () => {
-    router.push('/new-meetup/' + id)
+    router.push('/' + id)
   }
 
   return (
